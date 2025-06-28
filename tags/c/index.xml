@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on Xuanluoのblog</title>
+    <link>http://localhost:1313/tags/c/</link>
+    <description>Recent content in C on Xuanluoのblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>owobit@foxmail.com (邱 璇洛)</managingEditor>
+    <webMaster>owobit@foxmail.com (邱 璇洛)</webMaster>
+    <copyright>2020 - 2025 邱 璇洛 All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>在IOS上随时编写c语言项目</title>
+      <link>http://localhost:1313/posts/coding-c-on-iphone/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      <author>owobit@foxmail.com (邱 璇洛)</author>
+      <guid>http://localhost:1313/posts/coding-c-on-iphone/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Why？🤔️ 
+    &lt;div id=&#34;why&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#why&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;确实，这个需求听起来很是有意思，谁会闲着没事干在手机/iPad 上写代码。但是，这很酷不是吗？想象一下，随时随地拿起手机就可以写项目，而且是真正的可以 push 的。&lt;/p&gt;
+&lt;p&gt;实际上，怎样在手机上编写代码有着悠久的历史。极客们把设备压缩到极限，先别说生产力，光是这件事情就很酷了 🤩！&lt;/p&gt;
+&lt;p&gt;所以，如果你现在还有着一颗好奇和折腾的，火热的心，接着往下看，我保证你马上就可以在朋友面前 show 一手。&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;第一步，陈列清单。🧾 
+    &lt;div id=&#34;第一步陈列清单&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5%e9%99%88%e5%88%97%e6%b8%85%e5%8d%95&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;我们现明确目标：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;能真正的写代码。&lt;/li&gt;
+&lt;li&gt;能真正的在本地运行。&lt;/li&gt;
+&lt;li&gt;可以提交到我的远程仓库。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我找遍了 App Store，留下了一些还不错的：&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;1. &lt;a
+  href=&#34;https://thebaselab.com/code/&#34;
+    target=&#34;_blank&#34;
+  &gt;Code App&lt;/a&gt;
+ 30¥ 
+    &lt;div id=&#34;1-code-app-30&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#1-code-app-30&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+      &lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;IMG_1580&#34;
+    srcset=&#34;
+      /posts/coding-c-on-iphone/1_hu_f188f2fce236b34d.jpeg  330w,
+      /posts/coding-c-on-iphone/1_hu_823eda5459f8623.jpeg  660w,
+      /posts/coding-c-on-iphone/1_hu_27b6fa9c5770cc40.jpeg 1280w
+    &#34;
+    data-zoom-src=&#34;http://localhost:1313/posts/coding-c-on-iphone/1.jpeg&#34;
+    src=&#34;http://localhost:1313/posts/coding-c-on-iphone/1.jpeg&#34;&gt;
+
+  
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>SDL2学习笔记 - 绘制文字,帧数检测和可视区域</title>
+      <link>http://localhost:1313/posts/learn-sdl2/learn-sdl2-3/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      <author>owobit@foxmail.com (邱 璇洛)</author>
+      <guid>http://localhost:1313/posts/learn-sdl2/learn-sdl2-3/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;开发环境 ：MacOS
+参考链接 ：&lt;a
+  href=&#34;https://www.bilibili.com/video/BV1rK411V7eu/&#34;
+    target=&#34;_blank&#34;
+  &gt;陈云老师的 SDL2 教程&lt;/a&gt;
+
+注 ：学习笔记&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;绘制文字 
+    &lt;div id=&#34;绘制文字&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e7%bb%98%e5%88%b6%e6%96%87%e5%ad%97&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;文字的绘制，需要搞一个字库，我的建议是用&lt;strong&gt;思源体&lt;/strong&gt;，或者 B 站大佬&lt;a
+  href=&#34;https://space.bilibili.com/38053181&#34;
+    target=&#34;_blank&#34;
+  &gt;oooooohmygosh&lt;/a&gt;
+团队做的&lt;strong&gt;得意体&lt;/strong&gt;，两者都是开源免费的。
+我们还需要下载&lt;code&gt;SDL2_image&lt;/code&gt;库：
+&lt;em&gt;使用 brew 下载&lt;/em&gt;&lt;code&gt;brew install sdl2_image&lt;/code&gt;
+然后&lt;code&gt;brew info sdl2_image&lt;/code&gt;查看下位置。
+最后配置一下 CMake&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmake&#34; data-lang=&#34;cmake&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmake_minimum_required(&lt;span style=&#34;color:#e6db74&#34;&gt;VERSION&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;3.23.2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;project(&lt;span style=&#34;color:#e6db74&#34;&gt;DrewText&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;C&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;CMAKE_C_STANDARD&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;11&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# SDL2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL_DIR&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/Cellar/sdl2/2.26.0&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;include_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/include/SDL2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/lib/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# SDL2_image
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2_image&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/Cellar/sdl2_image/2.6.2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;include_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL2_image&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/include/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL2_image&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/lib/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# SDL2_ttf
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2_ttf&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/Cellar/sdl2_ttf/2.20.1&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;include_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL2_ttf&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/include/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL2_ttf&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/lib/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_libraries(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_libraries(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2_image&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_libraries(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2_ttf&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 把可执行文件移出来,防止找不到资源(ttf/image)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;EXECUTABLE_OUTPUT_PATH&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;../&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;add_executable(&lt;span style=&#34;color:#e6db74&#34;&gt;DrewText&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;main.c&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;先在&lt;code&gt;main&lt;/code&gt;里打开字体&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>SDL2学习笔记 - Hello SDL2</title>
+      <link>http://localhost:1313/posts/learn-sdl2/learn-sdl2-1/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <author>owobit@foxmail.com (邱 璇洛)</author>
+      <guid>http://localhost:1313/posts/learn-sdl2/learn-sdl2-1/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;起步 
+    &lt;div id=&#34;起步&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e8%b5%b7%e6%ad%a5&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;环境：MacOS
+本文开发 SDL 使用的语言是 C 语言（别问，问就是不喜欢 C++）
+本文更趋向是技术记录，不是新手教程，不过我觉得学过一些 C 语言的看起来没啥问题&lt;/p&gt;
+&lt;p&gt;下载 SDL，在 MacOS 是很简单的，因为我懒得用 Xcode，直接用 brew 下载，VScode 开发，美滋滋。
+&lt;code&gt;brew install sdl2&lt;/code&gt;
+下载完之后还需要配置一下 CMake，在 MacOS 里 CMake 直接引用是没办法找到 SDL 库，还需要连接下头文件位置。
+&lt;em&gt;使用 brew info 查找库位置&lt;/em&gt; &amp;gt; &lt;code&gt;brew info sdl2&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;然后配置一下 CMake 就可以直接引用了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmake&#34; data-lang=&#34;cmake&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmake_minimum_required(&lt;span style=&#34;color:#e6db74&#34;&gt;VERSION&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;3.23.2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;project(&lt;span style=&#34;color:#e6db74&#34;&gt;HelloSDL2&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;C&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;CMAKE_C_STANDARD&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;11&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;MY_LIBRARY_DIR&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/Cellar&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL_DIR&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;MY_LIBRARY_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/sdl2/2.26.0&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;include_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/include/SDL2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/lib/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_libraries(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;add_executable(&lt;span style=&#34;color:#e6db74&#34;&gt;HelloSDL2&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;main.c&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;好啦，之后就可以开始真正写代码啦！&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>SDL2学习笔记 - 渲染图片</title>
+      <link>http://localhost:1313/posts/learn-sdl2/learn-sdl2-2/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <author>owobit@foxmail.com (邱 璇洛)</author>
+      <guid>http://localhost:1313/posts/learn-sdl2/learn-sdl2-2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;开发环境 ： MacOS
+参考资料 ： &lt;a
+  href=&#34;https://www.bilibili.com/video/BV1rK411V7eu&#34;
+    target=&#34;_blank&#34;
+  &gt;陈云老师的 SDL2 教程&lt;/a&gt;
+
+注：这是笔记
+EP-2&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;环境配置 
+    &lt;div id=&#34;环境配置&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;在 SDL2 中，我们有两种方法渲染图片。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一种是使用 BMP 格式的图片，好处是无损图片，可以直接使用 SDL2 库渲染。&lt;/li&gt;
+&lt;li&gt;还有一种就是用&lt;code&gt;SDL2_image&lt;/code&gt;库渲染 PNG，JPG 一类的常见格式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这两种咱都会说，因为 BMP 格式渲染比较简单，我们先说这个。&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;配置 CMake 
+    &lt;div id=&#34;配置-cmake&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e9%85%8d%e7%bd%ae-cmake&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;首先配置 CMake，上个文章已经说了，加上&lt;code&gt;SDL_image&lt;/code&gt;也是如法炮制，就直接复制了。
+值得注意的是，在 MacOS 上使用 VScode 的 CMakeTools 直接启动会因为可执行文件找不到图片导致失败，所以我们还需要加上一句吧可执行文件移到工作目录下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cmake&#34; data-lang=&#34;cmake&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cmake_minimum_required(&lt;span style=&#34;color:#e6db74&#34;&gt;VERSION&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;3.23.2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;project(&lt;span style=&#34;color:#e6db74&#34;&gt;SimpleAnimation&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;C&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;CMAKE_C_STANDARD&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;11&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL_DIR&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/Cellar/sdl2/2.26.0&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;include_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/include/SDL2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL_DIR&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/lib/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2_image&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/usr/local/Cellar/sdl2_image/2.6.2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;include_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL2_image&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/include/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_directories(&lt;span style=&#34;color:#f92672&#34;&gt;${&lt;/span&gt;SDL2_image&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/lib/&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_libraries(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;link_libraries(&lt;span style=&#34;color:#e6db74&#34;&gt;SDL2_image&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 移出可执行文件
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;set(&lt;span style=&#34;color:#e6db74&#34;&gt;EXECUTABLE_OUTPUT_PATH&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;../&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;add_executable(&lt;span style=&#34;color:#e6db74&#34;&gt;SimpleAnimation&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;main.c&lt;/span&gt;)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后，我们就可以正式开始了&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

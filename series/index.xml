@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Xuanluoのblog</title>
+    <link>http://localhost:1313/series/</link>
+    <description>Recent content in Series on Xuanluoのblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>owobit@foxmail.com (邱 璇洛)</managingEditor>
+    <webMaster>owobit@foxmail.com (邱 璇洛)</webMaster>
+    <copyright>2020 - 2025 邱 璇洛 All Rights Reserved.</copyright>
+    <lastBuildDate>Tue, 13 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sdl2</title>
+      <link>http://localhost:1313/series/sdl2/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      <author>owobit@foxmail.com (邱 璇洛)</author>
+      <guid>http://localhost:1313/series/sdl2/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
