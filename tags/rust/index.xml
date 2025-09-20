@@ -46,14 +46,13 @@
 &lt;small&gt;图片来自&lt;a
   href=&#34;https://github.com/crablang/crab&#34;
     target=&#34;_blank&#34;
-  &gt;Crab-lang&lt;/a&gt;
-&lt;/small&gt;&lt;/p&gt;
+  &gt;Crab-lang&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;h2 class=&#34;relative group&#34;&gt;开端 
     &lt;div id=&#34;开端&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
         &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e5%bc%80%e7%ab%af&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
     &lt;/span&gt;        
     
@@ -61,20 +60,20 @@
 &lt;p&gt;Rust 历史很短。她诞生于 2006 年，最开始只是 Graydon Hoare 的个人项目，在 2009 年 Graydon Hoare 成为 Mozilla 雇员后，Mozilla 开始资助这个项目，并且在语言尚未成型的情况下开发了&lt;a
   href=&#34;https://zh.m.wikipedia.org/wiki/Servo&#34;
     target=&#34;_blank&#34;
-  &gt;Servo&lt;/a&gt;
-浏览器排版引擎，折腾许久后，终于在 2015 年发布 1.0 版本。随后，Rust 以惊人的速度在社区内蔓延。连续五年被评为最受欢迎的编程语言，Rust 几乎由社区支撑，她的大多数源代码来自社区的贡献，这个新兴的开源编程语言似乎形势大好，无数人追捧她，明天似乎已经可以预见&amp;hellip;..&lt;/p&gt;
+  &gt;Servo&lt;/a&gt;浏览器排版引擎，折腾许久后，终于在 2015 年发布 1.0 版本。随后，Rust 以惊人的速度在社区内蔓延。连续五年被评为最受欢迎的编程语言，Rust 几乎由社区支撑，她的大多数源代码来自社区的贡献，这个新兴的开源编程语言似乎形势大好，无数人追捧她，明天似乎已经可以预见&amp;hellip;..&lt;/p&gt;
 &lt;p&gt;可是，美好似乎来的没那么快。&lt;/p&gt;
 
 &lt;h2 class=&#34;relative group&#34;&gt;开源社区的项目 
     &lt;div id=&#34;开源社区的项目&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
         &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#%e5%bc%80%e6%ba%90%e7%a4%be%e5%8c%ba%e7%9a%84%e9%a1%b9%e7%9b%ae&#34; aria-label=&#34;锚点&#34;&gt;#&lt;/a&gt;
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-&lt;p&gt;Rust 是一个基于社区的项目，Rust 的大多数代码来自社区，Rust 的生态来自社区，Rust 的一切几乎都基于她庞大且充满活力的社区。&lt;/p&gt;</description>
+&lt;p&gt;Rust 是一个基于社区的项目，Rust 的大多数代码来自社区，Rust 的生态来自社区，Rust 的一切几乎都基于她庞大且充满活力的社区。&lt;/p&gt;
+&lt;p&gt;开源社区是一个包容的地方，可能是当今互联网中最纯粹坚持互联网最原始的 tag：“分享”，的地方。在开源社区里，不管你是 LGBT 还是俄罗斯人，只要不蓄意引战影响开源项目和开源社区。那么大家都是一家人，至少大多数开源社区是这样的，因为这就是开源的本质，不是吗？每个人都能快乐的贡献，享用，交流，分享。美好的像一个互联网乌托邦。&lt;/p&gt;</description>
       
     </item>
     
